@@ -13,7 +13,7 @@ public class Quiz1_Multiply_Class{
 				break;
 			}catch(InputMismatchException e) {
 				System.out.println("실수는 입력하면 안됩니다.");
-				scanner.next();
+				scanner.nextLine();
 			}
 		}
 		System.out.print(n + "x" + m + "=" + n*m);
